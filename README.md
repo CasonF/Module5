@@ -19,4 +19,4 @@ previousNum = currentNum;
 currentNum = previouspreviousNum + previousNum;
 }
 
-That is to say, if n = 7, the previous numbers (previouspreviousNum and previousNum) will iterate and become the next number in the sequence, then the current number (the next value in the array) is determined by combining those two values.
+That is to say, if n = 7, the previous numbers (previouspreviousNum and previousNum) will iterate and become the next number in the sequence, then the current number (the next value in the array) is determined by combining those two values until the 7th position in the sequence is reached.
