@@ -12,7 +12,7 @@ previouspreviousNum (undefined), previousNum = 0, currentNum = 1
 
 Given input n = some positive integer:
 
-for (int i = 0; i < n; i++)
+for (int i = 1; i < n; i++)
 {
 previouspreviousNum = previousNum;
 previousNum = currentNum;
